@@ -67,28 +67,28 @@ header{
 }
 
 .recipe-sisig{
-    background: url(/dishimages/sisig.jpg);
+    background: url(dishimages/sisig.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .recipe-sinigang{
-    background: url(/dishimages/sinigang.jpg);
+    background: url(dishimages/sinigang.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .recipe-bibingka{
-    background: url(/dishimages/bibingka.jpg);
+    background: url(dishimages/bibingka.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .recipe-lecheflan{
-    background: url(/dishimages/lecheflan.jpg);
+    background: url(dishimages/lecheflan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

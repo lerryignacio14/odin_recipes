@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    width: 90vw;
+    margin: auto;
+}
+ 
+header{
+    background-color: #367E18;
+    height: 100%;
+    text-align: center;
+    color: #FFE9A0;
+    letter-spacing: 10px;
+    padding: 15px;
+}
+
+.description{
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.description::before{
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: url(https://www.bworldonline.com/wp-content/uploads/2021/05/food-fiesta1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.description p{
+    position: relative;
+    color: #1c5404;
+    top: 50px;
+    left: 75px;
+    text-align: justify;
+    width: 80%;
+    font-size: 45px;
+    font-weight: bolder;  
+}
+
+.recipe-dish{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.recipes{
+    margin: 25px;
+    height: 600px;
+    width: 40vw;
+    position: relative;
+}
+
+.recipe-sisig{
+    background: url(/dishimages/sisig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipe-sinigang{
+    background: url(/dishimages/sinigang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipe-bibingka{
+    background: url(/dishimages/bibingka.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipe-lecheflan{
+    background: url(/dishimages/lecheflan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipes a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.recipes:hover{
+    opacity: 0.7;
+}
+
+.bga{
+    background-color: #367E18;
+    background-size: 100px;
+    width: 100%;
+    color: #FFE9A0;
+    text-align: center;
+}
+
+footer{
+    background-color: #367E18;
+    padding: 25px;
+    color: #FFE9A0;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F57328;
+}

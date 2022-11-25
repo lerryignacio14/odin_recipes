@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    width: 90vw;
+    margin: auto;
+}
+ 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #367E18;
+    height: 80px;
+    text-align: center;
+    color: #FFE9A0;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFE9A0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 50vw;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFE9A0;
+}
+
+nav a:hover{
+    color: #F57328;
+}
+
+.sinigang-intro h2, figcaption{
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #367E18;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.sinigang-intro img{
+    width: 100%;
+}
+
+.sinigang-intro figcaption{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.cooking p{
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.tips{
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: justify; 
+}
+
+.ingredients ul{
+    margin-bottom: 30px;
+}
+.ingredients ul>li{
+    font-size: 25px;
+    list-style-position: inside;
+}
+
+.instructions ol{
+    margin-bottom: 30px;
+}
+
+.instructions ol>li{
+    font-size: 25px;
+    list-style-position: inside;
+}
+
+.notes ul{
+    margin-bottom: 30px;
+}
+
+.notes ul>li{
+    font-size: 25px;
+    list-style-position: inside;
+}
+
+footer{
+    height: 60px;
+    background-color: #367E18;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFE9A0;
+}
+
+footer a:hover{
+    color: #F57328;
+}
+
+@media screen and (max-width: 1150px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: auto 25px;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    footer{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 80vw;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    h1, h2{
+        font-size: 20px;
+    }
+
+    .sinigang-intro figcaption{
+        font-size: 12px;
+    }
+
+    .cooking p, .notes ul>li, .tips p{
+        font-size: 16px;
+    }
+
+    .instructions ol>li, .ingredients ul>li{
+        font-size: 16px;
+    }
+
+    footer a{
+        font-size: 16px;
+    }
+}
